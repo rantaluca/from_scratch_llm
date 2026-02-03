@@ -1,4 +1,4 @@
-# Tiny LLM 
+# From Scratch LLM 
 
 <div align="center">
   <h2>Training a Small GPT-Style Language Model from Scratch with PyTorch</h2>
