@@ -44,15 +44,17 @@ The model is trained on an **RTX 3060 (12GB VRAM)** with a **batch size of 16**,
 - **Vocabulary Size**: 50,260
 - **Optimizer**: AdamW with cosine annealing (lr=3e-4)
 - **Precision**: Mixed (bfloat16)
-
-### Training Loop
 - **Gradient Accumulation**: 4 steps
-- **Checkpoints**: Saved every 5,000 steps
-- **Inference**: Real-time text generation during training to monitor progress
 
 ---
+## Loss evolution ( after 60k steps) 
+<img width="832" height="287" alt="Screenshot 2026-05-25 at 15 38 27" src="https://github.com/user-attachments/assets/18c91dbb-46bc-470f-87c2-3c7b5559acdb" />
 
-## Trial training on 25k steps
+## Output evolution ( 40k steps)
+
+<img width="945" height="225" alt="Screenshot 2026-05-25 at 15 38 18" src="https://github.com/user-attachments/assets/ef761986-d7a0-44e7-a320-88c7c33fc68b" />
+
+### First trial training on 25k steps
 
 After the first **25,000 steps**, the model shows early signs of learning and loss is decreasing:
 
